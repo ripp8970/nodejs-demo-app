@@ -4,9 +4,6 @@ This is a basic Node.js application developed using CI/CD pipeline with Docker t
 
 ## Getting Started
 
-[![CI/CD Pipeline](https://github.com/ripp8970/nodejs-demo-app/actions/workflows/main.yml)](https://github.com/ripp8970/nodejs-demo-app/actions)
-[![Docker Image]]
-
 A Node.js web application with automated CI/CD pipeline using GitHub Actions and Docker.
 
 ## Features
@@ -25,3 +22,4 @@ A Node.js web application with automated CI/CD pipeline using GitHub Actions and
 - Docker Hub account
 
 ## Quick Start
+    "docker pull <your-docker-username>/nodejs-demo-app:latest"
