@@ -35,7 +35,7 @@ A Node.js web application with automated CI/CD pipeline using GitHub Actions and
      docker run -d -p 3000:3000 --name nodejs-app <your-docker-username>/nodejs-demo-app:latest
 
 - Verify It's Running
-
+    '''bash
      docker ps
 
   The container should be seen running.
