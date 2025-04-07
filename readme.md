@@ -28,11 +28,11 @@ A Node.js web application with automated CI/CD pipeline using GitHub Actions and
 - Access to Docker Hub (or your container registry)
     Since, CI/CD was completed successfully, pull the image from Docker Hub
     ```bash
-     docker pull <your-docker-username>/nodejs-demo-app:latest
+     docker pull ripp8970/nodejs-demo-app:latest
     ```
 - Run the Container
     ```bash
-     docker run -d -p 3000:3000 --name nodejs-app <your-docker-username>/nodejs-demo-app:latest
+     docker run -d -p 3000:3000 --name nodejs-app ripp8970/nodejs-demo-app:latest
     ```
 - Verify It's Running
     ```bash
