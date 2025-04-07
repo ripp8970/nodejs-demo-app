@@ -27,7 +27,7 @@ jobs:
       run: npm install
       
     - name: Run tests
-      run:  npm package.json  # Add your test script in package.json
+      run:  npm test  # Add your test script in package.json
 
   build-and-push:
     needs: test
