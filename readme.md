@@ -26,11 +26,11 @@ A Node.js web application with automated CI/CD pipeline using GitHub Actions and
 - Docker installed on your machine
 - Access to Docker Hub (or your container registry)
     Since, CI/CD was completed successfully, pull the image from Docker Hub
-    # docker pull <your-docker-username>/nodejs-demo-app:latest
+     docker pull <your-docker-username>/nodejs-demo-app:latest
 - Run the Container
-    # docker run -d -p 3000:3000 --name nodejs-app <your-docker-username>/nodejs-demo-app:latest
+     docker run -d -p 3000:3000 --name nodejs-app <your-docker-username>/nodejs-demo-app:latest
 - Verify It's Running
-    # Docker ps
+     docker ps
   The container should be seen running.
 - Access the Application
-    # http://localhost:3000
+     http://localhost:3000
